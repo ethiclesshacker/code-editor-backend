@@ -1,4 +1,5 @@
 import express from 'express';
+import path from 'path'
 const app = express();
 import  'dotenv/config';
 import morgan from 'morgan';
@@ -15,10 +16,17 @@ app.use(express.json());
 app.use(morgan('dev'));
 app.use(cors());
 
+const buildPath = path.join('build')
+
+
+// app.use(express.static(buildPath))
+app.use(express.static("public"));
+
+
 app.use('/api/users', userRoutes);
 app.use('/api/code', codeRoutes);
 
-app.get('/', (req, res) => {
+app.get('/test', (req, res) => {
   res.json({ message: 'Hello World' });
 });
 

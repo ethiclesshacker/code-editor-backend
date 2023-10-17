@@ -50,11 +50,11 @@ const userSchema = new mongoose.Schema(
       required: true,
     },
     registrationNumber: {
-      type:  String,
+      type: String,
       required: true,
     },
     semester: {
-      type: Number,
+      type: String,
       required: true,
     },
 
