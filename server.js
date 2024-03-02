@@ -8,6 +8,8 @@ import cors from 'cors';
 
 import userRoutes from './routes/userRoutes.js';
 import codeRoutes from './routes/codeRoutes.js';
+import questionRoutes from './routes/questionRoutes.js'
+
 
 
 connectDb();
@@ -25,6 +27,7 @@ app.use(express.static("public"));
 
 app.use('/api/users', userRoutes);
 app.use('/api/code', codeRoutes);
+app.use('/api/questions', questionRoutes)
 
 app.get('/test', (req, res) => {
   res.json({ message: 'Hello World' });

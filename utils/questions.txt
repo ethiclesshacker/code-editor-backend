@@ -1,0 +1,64 @@
+Finding the square of even numbers and cube of odd numbers in the list. | A,B;C | python, class x, easy
+Write a program to check if a number is prime or not. | A,B;C | python, class x, easy
+Write a program to check if the number is Armstrong or not. | A,B;C | python, class x, medium
+Write a program to find a fibonacci of a number. | A,B;C | python, class x, medium
+Python program to remove spaces from string without inbuilt function. | A,B;C | python, class x, difficult
+Python Program to Check if a String is Palindrome or Not. | A,B;C | python, class x, difficult
+
+Write a program to count and display the number of digits and the number of letters in a string. | A,B;C | python, class xi, easy
+Write a program to find the factorial of a given number. | A,B;C | python, class xi, easy
+Write a program in Python to input a decimal integer and print its reverse binary equivalent.  | A,B;C | python, class xi, medium
+Write a program to accept and substring from the user and check whether the substring is present or not in the string. | A,B;C | python, class xi, medium
+Write a program to find an element in a list using binary search. | A,B;C | python, class xi, difficult
+Write a program to find uncommon words from 2 strings. | A,B;C | python, class xi, difficult
+
+Write a program to calculate and print the roots of quadratic equation ax2+bx+c=0. The program should display a suitable message whether roots are real, equal, different or imaginary. | A,B;C | python, class xii, easy
+Write a program to print the first 10 Mersenne numbers. (Mersenne number are in the form of (2n -1) ) | A,B;C | python, class xii, easy
+WAP to read today's date (only date Part) from the user. Then display how many days are left in the current month. | A,B;C | python, class xii, medium
+WAP to create a dictionary named year whose keys are month names and values are their corresponding number of days. | A,B;C | python, class xii, medium
+WAP to perform insertion sort in a list. | A,B;C | python, class xii, difficult
+Write a program to perform merge sort. | A,B;C | python, class xii, difficult
+
+
+Write a program to find the factorial of a number. | A,B;C | c, class x, easy
+Write a program to find the sum of digits. | A,B;C | c, class x, easy
+Write a program to find a BuzzFizz number. (Number divisible by 5 is Buzz and number divisible by 3 is Fizz) | A,B;C | c, class x, medium
+Write a program to reverse a string. | A,B;C | c, class x, medium
+Write a program to convert octal to hexadecimal. | A,B;C | c, class x, difficult
+Write a program to count the frequency of characters in a string. | A,B;C | c, class x, difficult
+
+Write a program to delete a number given by a user from an array. | A,B;C | c, class xi, easy
+Write a program to find the factorial of a given number. | A,B;C | c, class xi, easy
+Write a program to delete duplicate elements from an array. | A,B;C | c, class xi, medium
+Write a program to find the compound interest. | A,B;C | c, class xi, medium
+Write a program to check if it is a Harshad number or not. (Number divisible by the sum of its digits) | A,B;C | c, class xi, difficult
+Write a program to delete an element from an array at a given index. | A,B;C | c, class xi, difficult
+
+Write a program to replace all the 0’s with 1’s in a number. | A,B;C | c, class xii, easy
+Write a C Program to check if two numbers are equal without using the bitwise operator.  | A,B;C | c, class xii, easy
+Write a program to sort an array using pointers. | A,B;C | c, class xii, medium
+Write a program to find the equilibrium index of an array. Example: a[] = {-7, 1, 5, 2, -4, 3, 0}. a[0] + a[1] + a[2] = a[4] + a[5] + a[6]. Hence the equilibrium index is 3. | A,B;C | c, class xii, medium
+Write a program to perform left rotation of array elements by two positions. | A,B;C | c, class xii, difficult
+Write a program to sort an array using quick sort. | A,B;C | c, class xii, difficult
+
+
+Write a JavaScript program to find the maximum number in an array. | A,B;C | c, class x, easy
+Write a Javascript program to find the sum of all the numbers in an array. | A,B;C | c, class x, easy
+Write a JavaScript program to convert a string to title case (capitalise the first letter of each word).  | A,B;C | c, class x, medium
+Write a function that takes an array of integers as input and returns a new array with only the unique elements. | A,B;C | c, class x, medium
+Write a program to convert octal to hexadecimal. | A,B;C | c, class x, difficult
+Write a program to count the frequency of characters in a string. | A,B;C | c, class x, difficult
+
+Write a JavaScript function that takes an array of numbers and returns a new array with only the even numbers.  | A,B;C | c, class xi, easy
+Write a function that sorts an array of numbers in ascending order.  | A,B;C | c, class xi, easy
+Write a function that reverses the order of words in a sentence without using the built-in reverse() method. | A,B;C | c, class xi, medium
+Write a function that takes an array of integers and returns the largest difference between any two numbers in the array. | A,B;C | c, class xi, medium
+Write a program to find the nth largest element in a sorted array. | A,B;C | c, class xi, difficult
+Write a program to count the number of 0’s and 1’s using Bitwise operator. | A,B;C | c, class xi, difficult
+
+Write a JavaScript program to find the largest element in a nested array.  | A,B;C | c, class xii, easy
+Implement a function that finds the second smallest element in an array of integers.  | A,B;C | c, class xii, easy
+Implement a function that finds the index of a specific element in an array. If the element is not found, the function should return -1. | A,B;C | c, class xii, medium
+Write a function that removes all falsy values (false, null, 0, “”, undefined, and NaN) from an array. | A,B;C | c, class xii, medium
+Find the pairs of array element for which sum is equal to given target value (Two Sum Problem) | A,B;C | c, class xii, difficult
+Write a program to find the missing number from a sorted array. | A,B;C | c, class xii, difficult
