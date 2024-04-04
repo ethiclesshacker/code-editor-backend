@@ -6,9 +6,9 @@ import express from 'express';
 //@route    GET api/questions/getAll
 //@access   Admin
 const addQuestion = asyncHandler(async (req, res) => {
-    console.log(req);
+    // console.log(req);
     const {questionString, testCases, tags } = req.body;
-    const question = Question.create(questionString, testCases, tags);
+    const question = Question.create({questionString, testCases, tags});
     if (question) {
         res.status(201).json({
           _id: question._id,

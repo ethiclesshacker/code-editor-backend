@@ -1,4 +1,5 @@
 import requests 
+import json
 
 FILEPATH = "./utils/questions.txt"
 
@@ -16,5 +17,5 @@ for line in lines:
     data = {'questionString':questionString,'testCases': testCases,'tags': tags}
     print(data)
 
-    requests.post("http://localhost:5050/api/questions/add", data)
+    requests.post("http://127.0.0.1:5050/api/questions/add", json=data)
     
