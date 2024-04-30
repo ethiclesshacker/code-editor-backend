@@ -13,7 +13,7 @@ const questionSchema = new mongoose.Schema(
         default: "coding"
     },
     testCases: {
-        type: String,
+        type: Array,
         required: false,
     },
     rightAnswer: {

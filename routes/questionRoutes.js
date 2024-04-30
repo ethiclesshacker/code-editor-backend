@@ -4,7 +4,7 @@ import { addQuestion, getQuestions, getQuestionsAll } from '../controllers/quest
 const router = express.Router();
 
 router.post('/add', addQuestion);
-router.get('/get',getQuestions);
+router.post('/get',getQuestions);
 router.get('/getAll', getQuestionsAll);
 
 export default router;

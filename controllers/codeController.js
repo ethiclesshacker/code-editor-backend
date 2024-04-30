@@ -1,6 +1,6 @@
 import User from '../models/userModel.js';
 import asyncHandler from 'express-async-handler';
-
+import Question from '../models/questionModel.js';
 import express from 'express';
 import { execArgv } from 'process';
 import {exec} from 'child_process'
@@ -62,6 +62,46 @@ const runCode = asyncHandler(async (req, res) => {
 
 });
 
+//@desc     Auth User & Get Token
+//@route    POST api/code/test
+//@access   Public
+const testCode = asyncHandler(async (req, res) => {
+    const id = req.body.id;
+    const code = req.body.code;
+    const codeLanguage = req.body.codeLanguage;
+    const questions = await Question.find({"_id":id});
+    console.log(questions);
+    const question = questions[0];
+    console.log(question);
+    const testCases = question['testCases']
+    
+    console.log(testCases);
+    try {
+        writeFileSync(langMap[codeLanguage]['fileName'], code);
+        // file written successfully
+
+        exec(langMap[codeLanguage]['run'], (err, stdout, stderr) => {
+            if (err) {
+                console.log(err);
+                res.status(500).send({ "error_msg": "An Internal Server Error Occured." })
+            }
+            else {
+                console.log("Output", stdout);
+                console.log("Error Message: ", stderr);
+                res.json({
+                    "output" : stdout
+                })
+            }
+            unlinkSync(langMap[codeLanguage]['fileName']);
+
+        });
+
+    } catch (err) {
+        console.error(err);
+    }
+
+});
 
 
-export {runCode};
+
+export {runCode,testCode};
